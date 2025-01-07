@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  padding: 14px 18px 14px 18px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  border: none;
+}
+.btn:hover {
+  font-size: small;
+}
+.btn-continer {
+  text-align: center;
+}
+
+/* Here parent Section1 */
+
+#preant1 {
+  background: linear-gradient(
+      0deg,
+      rgb(9, 9, 9) 2.884%,
+      rgba(16, 16, 16, 0) 101.034%
+    ),
+    url("assets/hero-bg.png");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#preant1 .ch1 {
+  width: 665px;
+  /* margin: 0 auto; */
+  /* margin-left: auto; */
+}
+#preant1 .ch1 .subtitle {
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+#preant1 .ch1 .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#preant1 .ch1 .text {
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Here parent Section2 */
+
+#preant2 {
+  width: 885px;
+  margin: 50px auto;
+}
+p{
+  text-align: center;
+  margin-bottom: 10px;
+}
+#preant2 .cardtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#preant2 .card-continer{
+  display: flex;
+  justify-content: space-between;
+}
+.card-continer .cardbox {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+.cardbox .imagebox {
+  width: 250px;
+}
+.cardbox .imagebox img {
+  width: 100%;
+}
+.cardbox .shop {
+  border-radius: 4px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 3px 10px 3px 10px;
+}
