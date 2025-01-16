@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* First Section Contact */
+
+#first-section{
+    background-color:cadetblue;
+    /* width: 200px; */
+    /* width: 100px;
+    height: 100px; */
+    /* overflow: hidden; */
+}
+
+.contact-name{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.contact-h3{
+    display: inline-block;
+    margin: 20px 20px 15px 20px;
+}
+.social-logo{
+    display: inline-block;
+}
+.img{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+}
+
+.contact-logo-flag{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-flag{
+    display: inline-block;
+}
+.flag{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+}
