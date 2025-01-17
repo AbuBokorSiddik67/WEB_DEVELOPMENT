@@ -15,30 +15,29 @@
         width: 100%;
         height: 100%;
       }
-      .row > div{
+      .row > div {
         flex: 1px;
       }
-      .vertical img{
-        height: calc((100% - 5px)/2);
+      .vertical img {
+        height: calc((100% - 5px) / 2);
       }
-      .square{
+      .square {
         display: grid;
-        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-columns: repeat(2, 1fr);
         gap: 5px;
-        
       }
 
-      @media screen and (max-width: 576px){
-        .row{
+      @media screen and (max-width: 576px) {
+        .row {
           flex-direction: column;
           height: auto;
         }
-        .square{
-          grid-template-columns: 1fr ;
+        .square {
+          grid-template-columns: 1fr;
         }
       }
-      @media screen and (min-width:576px) and (max-width: 992px){
-        .row{
+      @media screen and (min-width: 576px) and (max-width: 992px) {
+        .row {
           flex-direction: column;
           height: auto;
         }
