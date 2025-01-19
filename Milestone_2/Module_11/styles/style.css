@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Shared Styles Start *
+/* Shared Styles End */
+
+/* Header Section Start */
+/* Nav-Bar Styles Start */
+.nav-icon {
+  width: 20px;
+  height: 20px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav > h2 {
+  margin-left: 3vw;
+  margin-top: 3vw;
+  font-size: 2vw;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li {
+  list-style: none;
+  margin-right: 3vw;
+  margin-top: 4vw;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2vw;
+}
+nav > ul > li > a:hover{
+    background-color:rgba(216, 153, 224, 0.822);
+    padding: 1vw;
+    border-radius: 50vw;
+    color: rgb(167, 16, 197);
+}
+/* Nav-Bar Styles End */
+/* Section-1 Styles Start */
+#Section-1{
+
+}
+.section-container{
+
+}
+.title-part{
+
+}
+.image-part{
+    
+}
+/* Section-1 Styles End */
+/* Header Section End */
+
+/* Main Section Start */
+/* Main Section End */
+
+/* Footer Section Start */
+/* Footer Section End */
+
+/* --------------------------------------------------------- */
+/* -------------------Media Quarry Start-------------------- */
+
+@media screen {
+}
+
+/* --------------------Media Quarry End--------------------- */
+/* --------------------------------------------------------- */
