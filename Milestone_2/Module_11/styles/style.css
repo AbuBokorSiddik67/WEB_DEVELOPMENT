@@ -45,18 +45,68 @@ nav > ul > li > a:hover{
 /* Nav-Bar Styles End */
 /* Section-1 Styles Start */
 #Section-1{
-
+  
 }
 .section-container{
-
+  background-image: url("../images/Circle\ design.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 29vw;
+  /* background-position-x: -1vw; */
+  background-position-y: 1%;
+  display: flex;
+  margin: 5vw;
+  height: 35vw;
+  
 }
 .title-part{
-
+  display: flex;
+  width: 50%;
+  text-align: left;
+  align-items: center;
+  /* padding: 5px; */
+}
+.title-big{
+  font-size: 50px;
+}
+.text-title{
+  font-size: 15px;
+  color: rgb(81, 82, 83);
+}
+.title-part h1,p,button{
+  margin-bottom: 8px;
 }
 .image-part{
-    
+  width: 50%;
+}
+.img{
+    width: 370px;
+    /* height: 250px; */
+    margin-top: 5vw;
+    margin-left: 15vw;
+    margin-top: 1vw;
+}
+.prebook-btn{
+  font-size: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color:rgb(214, 36, 119);
+}
+.logo-container{
+  margin: 0vw 5vw 2vw;
+}
+.com-logo{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  border: 1px solid #f0eaea;
+  border-left: white;
+  border-right: white;
+  padding: 20px;
 }
 /* Section-1 Styles End */
+
 /* Header Section End */
 
 /* Main Section Start */
