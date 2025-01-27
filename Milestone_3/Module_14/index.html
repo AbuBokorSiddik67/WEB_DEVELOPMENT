@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tea-house</title>
-    <!-- Font-Awesome -->
-    <script
-      src="https://kit.fontawesome.com/861dca9631.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Font-Family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Tailwind Css cdn link -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-          },
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tea-house</title>
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/861dca9631.js" crossorigin="anonymous"></script>
+  <!-- Font-Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+  <!-- Tailwind Css cdn link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
+</head>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: "#da373d",
         },
-      };
-    </script>
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-  </body>
+      },
+    },
+  };
+</script>
+</head>
+
+<body>
+  <!-- Main Content -->
+  <main>
+    <!-- Header Section Start -->
+    <header>
+      <!-- Section-1 Start -->
+      <section class="flex ml-20 mr-5 lg:mx-20 mt-16 ">
+        <!-- text site -->
+        <div class="w-[50%] place-content-center">
+          <h1 class="text-4xl lg:text-6xl font-bold">It's good <br>
+            tea time at The <br>Tea House</h1>
+          <p class="text-xs text-gray-500 w-50 mt-5 mb-5">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
+          <button class="font-bold bg-gradient-to-r from-orange-500 to-red-500 px-5 py-2 rounded-lg">Explore More</button>
+        </div>
+        <!-- image site -->
+        <div class="w-[50%] mt-5 relative">
+          <img src="images/banner.png" alt="">
+          <!-- small card -->
+          <div  class="flex absolute top-[120px] left-8 mt-5 w-[170px] shadow bg-white py-3 md:top-[250px] md:left-36 lg:py-5 lg:px- lg:top-[370px] rounded-lg"  >
+            <div><i class="fa-solid fa-star text-orange-500 text-2xl mx-2 "></i></div>
+            <div>
+              <h2 class="text-xl font-bold text-[1px]" >5.00</h2>
+              <p class="text-sm text-[1px]">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section-1 Start -->
+    </header>
+  </main>
+</body>
+
 </html>
