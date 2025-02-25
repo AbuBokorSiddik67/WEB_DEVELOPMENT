@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>js practice</title>
+		<style>
+			.darkred {
+				background-color: rgba(104, 10, 10, 0.527);
+			}
+		</style>
+	</head>
+	<body>
+		<button onclick="makeBlue()">color blue</button>
+		<button onclick="makeBlack()">color black</button>
+		<button onclick="makeGreen()">color green</button>
+		<button onclick="makeRed()">color Red</button>
+		<button id="whitee">color white</button>
+        <!-- <script src="js/app.js"></script> -->
+        <script>
+            whitee.addEventListener('click',function(){
+                document.body.style.backgroundColor='red';
+            })
+        </script>
+	</body>
+</html>

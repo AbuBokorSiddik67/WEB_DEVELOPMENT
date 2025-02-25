@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>use input in js</title>
+	</head>
+	<body>
+		<p id="login-title">No user here. Please login !!</p>
+		<input id="input-text" type="text" placeholder="Enter your name:" />
+		<button id="btn-update">Update</button>
+		<script>
+			document
+				.getElementById("btn-update")
+				.addEventListener("click", function () {
+					const value = document.getElementById("input-text");
+					const result = value.value;
+					const titleLogin = document.getElementById("login-title");
+					titleLogin.innerText = result;
+				});
+		</script>
+	</body>
+</html>

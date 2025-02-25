@@ -4,7 +4,7 @@ const ob = {
     id: 5521,
     he: {
         ami: "ka",
-        tumi: "ka", 
+        tumi: "ka",
         Hmm: "Rajaker Rajaker",
     }
 }
