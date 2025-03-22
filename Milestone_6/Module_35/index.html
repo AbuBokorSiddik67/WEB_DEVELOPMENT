@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ph-tube</title>
+		<!-- Tailwind Link Start -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/daisyui@5"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<!-- Tailwind Link End -->
+		 <style>
+			.active {
+				background-color: #f00;
+				color: white;
+			}
+		 </style>
+	</head>
+	<body>
+		<!-- Header Start -->
+		<header>
+			<!-- Nav bar Start -->
+			<nav
+				class="w-11/12 mx-auto flex justify-between items-center py-5 border-b-2 border-[#17171720]"
+			>
+				<div class="logo">
+					<img class="w-[140px]" src="./assets/Logo.png" alt="" />
+				</div>
+				<div class="middile">
+					<button class="btn">Sort By view</button>
+				</div>
+				<div class="blog">
+					<button class="btn bg-red-500 text-white">Blog</button>
+				</div>
+			</nav>
+			<!-- Nav bar End. -->
+			<!-- Category container Start -->
+			<nav id="category-container" class="flex justify-center py-3 gap-4">
+				<button id="all" onclick="loadVideos(),loadData();" class="btn btn-sm active">All</button>
+			</nav>
+			<!-- Category container End -->
+		</header>
+		<!-- Header End -->
+		<!-- Main Section Start -->
+		<main>
+			<section class="w-11/12 mx-auto grid grid-cols-4 gap-4" id="videoContainer">\
+				<div class="col-span-full py-20 space-y-4 flex flex-col justify-center items-center">
+					<img class="w-[100px]" src="./assets/Icon.png" alt="">
+					<p class="text-2xl font-bold">Ops, No Content Here !!!</p>
+				</div>
+			</section>
+		</main>
+		<!-- Main Section End. -->
+
+		<!-- JS file link Start -->
+		<script src="./script/app.js"></script>
+		<!-- JS file link End -->
+	</body>
+</html>
